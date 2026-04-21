@@ -31,6 +31,26 @@ header{
 header h1{
     padding-top: 30px;
 }
+nav{
+    background-color: var(--cor4);
+    border-bottom: 2px solid white ;
+}
+nav p{
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid wheat;
+}
+p#pag05{
+    background-color: var(--cor0);
+}
+nav p:hover{
+    background-color: var(--cor0);
+    transition: 1s;
+}
+nav p a{
+    color: white;
+    text-decoration: none;
+}
 main{
     max-width: 100%;
     min-width: 100px;
