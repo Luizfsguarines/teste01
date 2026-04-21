@@ -8,7 +8,10 @@
     --cor4: rgb(81,29,97);
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metrophobic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@font-face {
+    font-family: 'novo';
+    src: url('fontes/Akira\ Expanded\ Demo.otf') format('opentype');
+}
 
 *{
     margin: 0px;
@@ -16,7 +19,7 @@
 }
 
 body{
-     font-family: "Metrophobic", sans-serif;
+     font-family:'novo', Arial, Helvetica, sans-serif;
      background-color: var(--cor1);
 }
 
@@ -73,7 +76,7 @@ div p {
 }
 p#bot{
     margin-top: 45px;
-    margin-left: 150px;
+    margin-left: 100px;
     font-weight: bold;
     margin-bottom: 20px;
 
