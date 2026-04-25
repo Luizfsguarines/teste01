@@ -21,6 +21,7 @@
 body{
      font-family:'novo', Arial, Helvetica, sans-serif;
      background-color: var(--cor1);
+
 }
 header{
     color: var(--cor3);
@@ -34,6 +35,9 @@ header h1{
 nav{
     background-color: var(--cor4);
     border-bottom: 2px solid white ;
+    margin: auto;
+    max-width: 100%;
+    min-width: 400px;
 }
 nav p{
     display: inline-block;
@@ -52,24 +56,19 @@ nav p a{
     text-decoration: none;
 }
 main{
-    max-width: 100%;
-    min-width: 100px;
+    max-width: 1000px;
+    min-width: 300px;
     margin: auto;
     color:white;
     
 }   
-div.html{
-       position: absolute;
-}
-div.css{
-    position: absolute;
-}
+
 div{
-    background-color: var(--cor0);
-    width: 600px;
+    min-width: 100px;
+    max-width: 600px;
     margin: auto;
-    margin-top: -90px;
     padding: 30px;
+    background-color: var(--cor0);
     border-radius: 12px;
 } 
 div p{
@@ -91,54 +90,24 @@ a#fonte{
     color: var(--cor2);
     
 }
+img{
+    margin: 10px 10px 10px 150px;
+}
 img#html{
     height: 250px;
-    width: 250px;
-    position: relative;
-    top: 200px;
-    left: 50px;
+    max-width: 250px;
+    min-width: 90px;
+    margin-left: 110px;
    
 }
 img#css{
-    height: 250px;
-    width: 200px;
-    position: relative;
-    left: 850px;
-    top: 200px;
+    max-height: 250px;
+    min-height: 100px;
+    max-width: 200px;
+    min-width: 90px;
    
 }
-p#bot{
-    margin-top: 45px;
-    margin-left: 150px;
-    font-weight: bold;
-    margin-bottom: 20px;
 
-}
-a#toque{
-   text-decoration: none;
-   background-color: var(--cor4);
-   color: var(--cor2);
-   padding: 30px;
-   border-radius: 10px;
-}
-div.voltar{
-    position: absolute;
-    background-color: rgb(15, 255, 143);
-    color: var(--cor0);
-    top: 100px;
-    left: 10px;
-    margin-top: 0px;
-    width: 170px;
-    padding: 20px;
 
-}
-div.voltar>p{
-    font-weight: bolder;
-    font-size: 22px;
-    text-align: center;
-    
 
-}
-div.voltar>p>a{
-    text-decoration: none;
-}
+
